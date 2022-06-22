@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios com Strings</title>
+</head>
+<body>
+    
+    <script>
+        const nome = prompt('Digite seu nome:')
+        const local = nome.charAt(1)
+        const index = nome.indexOf('a', 'A')
+        const ultimoIndex = nome.lastIndexOf('a', 'A')
+        const ultimas = nome.slice(-3)
+        const testeArray = nome.split(" ")
+        const maiusculas = nome.toUpperCase()
+        const minusculas = nome.toLowerCase()
+        document.body.innerHTML += `Seu nome é <strong>${nome}</strong><br>`
+        document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras<br>`
+        document.body.innerHTML += `A segunda letra do seu nome é <strong>${local}</strong><br>`
+        document.body.innerHTML += `Qual o índice da letra a no seu nome? É <strong>${index}</strong><br>`
+        document.body.innerHTML += `Qual é o último índice da letra a no seu nome? É <strong>${ultimoIndex}</strong><br>`
+        document.body.innerHTML += `As três últimas letras do seu nome são: <strong>${ultimas}</strong><br>`
+        document.body.innerHTML += `As palvras do seu nome são: <strong>${testeArray}</strong><br>`
+        document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${maiusculas}</strong><br>`
+        document.body.innerHTML += `Seu nome com letras minusculas: <strong>${minusculas}</strong><br>`
+    </script>
+</body>
+</html>
