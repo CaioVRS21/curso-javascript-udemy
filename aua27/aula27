@@ -1,0 +1,9 @@
+//ESTUDO DE MATH
+num1 = 6.8794634949564
+array = [1, 5, 88, 345, 8787, 0, 22]
+//console.log(Math.floor(num1))
+//console.log(Math.ceil(num1))
+//console.log(Math.round(num1))
+//console.log(Math.max(1, 5, 88, 345, 8787, 0, 22))
+//console.log(Math.min(1, 5, 88, 345, 8787, 0, 22))
+console.log(Math.random())
