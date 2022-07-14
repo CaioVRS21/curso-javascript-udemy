@@ -7,10 +7,10 @@
 // console.log(a, b, c)
 
 const listas = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] //para buscar o número 6 faz-se a seguinte operação
+// const [,[, , seis]] = listas //o primeiro espaço é para pular a primeira lista presente no index 0 do array principal, então abre-se outro colchtes já que queremos um elemento de dentro da segunda lista, dois espaços para pular os números 4 e 5 e então o nome da váriavel
 //Uma maneira mais fácil de se obter um valor dentro de uma lista dentro do array principal é o seguinte:
 const [lista1, lista2, lista3] = listas //cada variavel recebe uma lista
 console.log(lista2[2])//será printado o valor do índice 2 (seis) da segunda lista (valor da variavel lista 2)
-// const [,[, , seis]] = listas //o primeiro espaço é para pular a primeira lista presente no index 0 do array principal, então abre-se outro colchtes já que queremos um elemento de dentro da segunda lista, dois espaços para pular os números 4 e 5 e então o nome da váriavel
 // console.log(seis)
 
 
