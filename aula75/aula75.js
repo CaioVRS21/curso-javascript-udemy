@@ -27,4 +27,4 @@ const p1 = criaPessoa('Caio', 'Veras', 80, 1.73);
 p1.nomeCompleto = 'Maria Esther'
 // console.log(p1.nome)
 // console.log(p1.sobrenome)
-console.log(p1.fala('sobre carros'));
+console.log(p1.fala('carros'));

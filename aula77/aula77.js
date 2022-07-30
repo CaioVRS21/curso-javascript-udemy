@@ -8,7 +8,7 @@ function Pessoa (nome, sobrenome){
     const metodo = e => {
         console.log('Oi')
     };
-    //Atrinutos ou metodos públicos
+    //Atributos ou metodos públicos
     this.nome = nome;
     this.sobrenome = sobrenome;
 }
