@@ -4,7 +4,7 @@ const objA = {
     chaveA: 'A'
     //Todo objeto possui a chave _proto_ dentro de si e objA._proto_ é igual a Object.prototype
 };
-//è possívrl linkar o prototype de dois objetos distintos? Sim, da seguinte forma:
+//é possível linkar o prototype de dois objetos distintos? Sim, da seguinte forma:
 
 const objB = {
     chaveB: 'B'
