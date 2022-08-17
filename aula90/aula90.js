@@ -7,11 +7,11 @@ function Produto (nome, preco, estoque){
     // o this referência o objeto da função construtora
     Object.defineProperty(this, 'estoque', { 
         enumerable: true, //para permitir a exibição de um objeto
-        value: estoque, //estoque foi criado mas atpe agora ele não possuia um valor definido, agora ele recebe o valor do parametro "estoque" 
+        value: estoque, //estoque foi criado mas até agora ele não possuia um valor definido, agora ele recebe o valor do parametro "estoque" 
         writable: true, //agora o valor da chave estoque pode ser alterado
         configurable: true, //permite se chave pode ou não ser reconfigurável
     })
-    // as chaves são o "property descriptor" que é tambpem um objeto
+    // as chaves são o "property descriptor" que é também um objeto
 
     //Para configurar várias chaves
     Object.defineProperties(this, {

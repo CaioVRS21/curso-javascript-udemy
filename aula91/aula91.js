@@ -35,7 +35,7 @@ function criaProduto(nome){
             return nome;
         },
         set nome(valor){
-            valor = valor.replace('coisa', ''); //agora os valores passados podem ser facilmento interceptados e alterados qndo necessário
+            valor = valor.replace('coisa', ''); //agora os valores passados podem ser facilmente interceptados e alterados qndo necessário
             nome = valor;
         }
     }
