@@ -1,6 +1,6 @@
 //Promises
 //Promise é um objeto usado para processamento assíncrono. Uma Promise (de "promessa") representa um valor que pode estar disponível agora, no futuro ou nunca.
-function rand(max, min){
+function rand(min, max){
     max *= 1000;
     min *= 1000;
     return Math.floor(Math.random() * (max - min) + min);
