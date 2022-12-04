@@ -1,4 +1,5 @@
 //Async/Await
+// A proposta das funções async/await é de simplificar o uso de forma síncrona das Promises e executar alguns procedimentos em um grupo de Promises. Assim como Promises são similares a callbacks estruturados, funções async/await são similares à junção de generators com Promises.                           
 function rand(min, max){
     max *= 1000;
     min *= 1000;

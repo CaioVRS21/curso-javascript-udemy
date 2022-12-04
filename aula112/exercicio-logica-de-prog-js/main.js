@@ -2,7 +2,7 @@
 // const request = obj => {
 //     return new Promise((resolve, reject) => {
 //         const xhr = new XMLHttpRequest();
-//         xhr.open(obj.method, obj.url, true);//metodo, oque eu quero obter com este método e se é assíncrono ou não
+//         xhr.open(obj.method, obj.url, true);//metodo, oque eu quero obter com este método é saber se é assíncrono ou não
 //         xhr.send();//se fosse um post
 //         xhr.addEventListener('load', () => {
 //             if (xhr.status >= 200 && xhr.status < 300){ /*Códigos HTTP são números entre 100 e 505, para este exercício só serão aceitos os códigos "duzentos"*/
